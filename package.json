@@ -1,0 +1,16 @@
+{
+  "name": "js-electron-example",
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ./ app --platform=win32 --arch=x64 --overwrite"
+  },
+  "author": "vfuntikov",
+  "license": "ISC",
+  "description": "Example Electron application",
+  "dependencies": {
+    "electron": "^4.1.4",
+    "electron-packager": "^13.1.1"
+  }
+}
